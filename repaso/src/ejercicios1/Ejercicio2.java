@@ -18,9 +18,38 @@ public class Ejercicio2 {
      * @param args the command line arguments
      */
 
+    public static int sumar(int num1, int num2) {
+
+    System.out.println(num1 + " " + num2);
+
+        int aux = 0;
+        int suma = 0;
+        int cont = 0;
+
+        while ((num1 != 0) || (num2 != 0)) {
+            suma = (num1 % 10) + (num2 % 10) + aux;
+            num1 /= 10;
+            num2 /= 10;
+
+            if (suma >= 10) {
+                aux = suma / 10;
+                cont++;
+            } else {
+                aux = 0;
+            }
+
+        }
+
+        return cont;
+
+    }
+
+
+
     public static void main(String[] args) {
 
         //Comentario de felipe
         
     }
+
 }
