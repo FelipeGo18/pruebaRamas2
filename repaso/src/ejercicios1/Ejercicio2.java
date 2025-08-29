@@ -53,12 +53,21 @@ public class Ejercicio2 {
 
     }
 
-
+    
+    public static int multiplicacion(int a, int b){
+        
+        int c = a * b;
+        
+        return c;
+    }
 
     public static void main(String[] args) {
 
         System.out.println(division(4,3 ));
         //Comentario de felipe
+        
+        System.out.println(multiplicacion(1,2));
+        
         
     }
 
