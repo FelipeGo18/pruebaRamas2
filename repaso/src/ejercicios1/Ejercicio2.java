@@ -44,11 +44,20 @@ public class Ejercicio2 {
 
     }
 
-
+    
+    public static int multiplicacion(int a, int b){
+        
+        int c = a * b;
+        
+        return c;
+    }
 
     public static void main(String[] args) {
 
         //Comentario de felipe
+        
+        System.out.println(multiplicacion(1,2));
+        
         
     }
 
