@@ -18,6 +18,9 @@ public class Ejercicio2 {
      * @param args the command line arguments
      */
     public static int sumar(int num1, int num2) {
+
+    System.out.println(num1 + " " + num2);
+
         int aux = 0;
         int suma = 0;
         int cont = 0;
@@ -71,5 +74,6 @@ public class Ejercicio2 {
         }
 
     }
+
 
 }
